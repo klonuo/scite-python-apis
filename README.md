@@ -1,10 +1,10 @@
-These are API files for extending [SciTE](http://www.scintilla.org/SciTE.html) text editor, with autocomplete and calltip definitions, for some of my favorite Python packages.
+These are ".api" files for extending [SciTE](http://www.scintilla.org/SciTE.html) text editor, with autocomplete and calltip definitions, for some of my favorite Python packages.
 
 Archives contain two files inside: <u>regular</u> - which uses SciTE 3.0.4. feature of escape characters in calltip definitions (multi-line), and <u>lite</u> - which can be used with previous SciTE versions, and provides one line function description
 
 ### Usage
 
-Locate SciTE's `python.properties` file, and point `api.*.py=` property to the path of API files. For example:
+Locate SciTE's `python.properties` file, and point `api.*.py=` property to the path of ".api" files. For example:
 
 ```
 api.$(file.patterns.py)=$(SciteUserHome)/.local/share/scite/api/python.api;\
@@ -65,7 +65,7 @@ then additionally regex-ed for issues, and compacted to following style:
 * definitions are recognized if:
 	* package is imported explicitly or in common namespace (`import numpy` or `import numpy as np`)
 	* sub-packages are imported explicitly within main package or separately explicitly (`import numpy.fft` or `from numpy import fft`)
-	* in either case implicit loading is not recommended although API files can easily be changed to that preference
+	* in either case implicit loading is not recommended although ".api" files can easily be changed to that preference
 * lines are limited to max. 2000 characters for obvious reasons and function calls formatted to roughly 80 characters (in rare cases)
 
 ### Changelog
