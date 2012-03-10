@@ -20,7 +20,9 @@ calltip.python.parameters.separators=,
 
 ### In action
 
-![screen-shot](http://i.imgur.com/3bSCi.png "Rather extensive example")
+![screen-shot](http://i.imgur.com/2M3iM.png "Autocompletion example")
+
+![screen-shot](http://i.imgur.com/3bSCi.png "Rather extensive calltip example")
 
 ### Generation
 
