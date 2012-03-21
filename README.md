@@ -28,8 +28,6 @@ Pressing calltip shortcut again, rolls more detailed explanation:
 
 =======
 
-![screen-shot](http://i.imgur.com/GE2Bz.png "Rather extensive calltip example")
-
 ### Generation
 
 Files are generated with this procedure (example for <u>NumPy</u> package):
