@@ -20,7 +20,7 @@ calltip.python.parameters.separators=,
 
 ![screen-shot](http://i.imgur.com/VUdu8.png "Autocompletion example")
 
-![screen-shot](http://i.imgur.com/0ipoN.png "Calltip #1")
+![screen-shot](http://i.imgur.com/WAANg.png "Calltip #1")
 
 Pressing calltip shortcut again, rolls more detailed explanation:
 
