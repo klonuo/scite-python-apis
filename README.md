@@ -1,7 +1,5 @@
 These are API files for extending [SciTE](http://www.scintilla.org/SciTE.html) text editor, with autocomplete and calltip definitions, for some of my favorite Python packages.
 
-Archives contain two files inside: <u>regular</u> - which uses SciTE 3.0.4. feature of escape characters in calltip definitions (multi-line), and <u>lite</u> - which can be used with previous SciTE versions, and provides one line function description
-
 ### Usage
 
 Locate SciTE's `python.properties` file, and point `api.*.py=` property to the path of API files. For example:
@@ -20,9 +18,13 @@ calltip.python.parameters.separators=,
 
 ### In action
 
-![screen-shot](http://i.imgur.com/2M3iM.png "Autocompletion example")
+![screen-shot](http://i.imgur.com/VUdu8.png "Autocompletion example")
 
-![screen-shot](http://i.imgur.com/3bSCi.png "Rather extensive calltip example")
+![screen-shot](http://i.imgur.com/GE2Bz.png "Calltip #1")
+
+Pressing calltip shortcut again, rolls more detailed explanation:
+
+![screen-shot](http://i.imgur.com/aeaWv.png "Calltip #2")
 
 ### Generation
 
@@ -74,3 +76,8 @@ then additionally regex-ed for issues, and compacted to following style:
 
 * numpy.api reflect numpy 1.6.1
 * scipy.api reflects scipy 0.10.0
+
+0.2
+
+* Merged one-line-description calltips and extended calltips in one file. Now simple calltips are displayed by default, and on user action extended are rolled
+* Some noticed issues fixed
