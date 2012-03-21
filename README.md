@@ -20,11 +20,11 @@ calltip.python.parameters.separators=,
 
 ![screen-shot](http://i.imgur.com/VUdu8.png "Autocompletion example")
 
-![screen-shot](http://i.imgur.com/aeaWv.png "Calltip #1")
+![screen-shot](http://i.imgur.com/0ipoN.png "Calltip #1")
 
 Pressing calltip shortcut again, rolls more detailed explanation:
 
-![screen-shot](http://i.imgur.com/GE2Bz.png "Calltip #2")
+![screen-shot](http://i.imgur.com/Vu8Ee.png "Calltip #2")
 
 =======
 
@@ -71,6 +71,9 @@ then additionally regex-ed for issues, and compacted to following style:
 	* sub-packages are imported explicitly within main package or separately explicitly (`import numpy.fft` or `from numpy import fft`)
 	* in either case implicit loading is not recommended although ".api" files can easily be changed to that preference
 * lines are limited to max. 2000 characters for obvious reasons and function calls formatted to roughly 80 characters (in rare cases)
+
+
+Some may find this script also interesting: [scite-strip-wrapper](https://github.com/klonuo/scite-strip-wrapper/blob/master/README-wrapper.md)
 
 ### Changelog
 
